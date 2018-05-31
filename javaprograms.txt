@@ -1,0 +1,18 @@
+middle character of string 
+
+
+int len=word.length();
+
+if(len%2==0){
+
+return  word.substring((len/2)-1,(len/2)+1);
+
+}
+
+
+
+int middle=word.length()/2;
+
+return  word.substring(middle,middle+1) ;
+
+ 
